@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>atx-starting app</title>
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<link rel="stylesheet" type="text/css" href="web/core/css/atx-core.css">
+</head>
+<body>
+<script type="text/javascript">
+start_up();
+function start_up(){setTimeout(function(){
+document.getElementById("atx-load").style.display="none";document.getElementById("atx-load").remove();
+window.location.replace("web/pages/index.html");},1500);
+return!1
+}
+</script>
+<div id="atx-load"></div>
+</body>
+</html>
